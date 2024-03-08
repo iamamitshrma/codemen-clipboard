@@ -35,6 +35,24 @@ function App() {
 ```
 
 
+## Usage/Component
+
+```javascript
+import Copy, { useCodemenClipboard } from "codemen-clipboard"
+
+function App() {
+
+  const { copy } = useCodemenClipboard();
+  
+  return (
+      <div>
+        <Copy className="tailwind classes" onClick={() => copy()} />
+      </div>
+  )
+}
+```
+
+
 ## 🚀 About Me
 I'm Amit Sharma, a committed Full Stack Developer with a focus on JavaScript/TypeScript 💻 and the corresponding runtimes. I have a strong expertise in startups and have led the creation of applications from their birth utilising state-of-the-art online technology. By constantly experimenting with new technologies, I hope to improve the experiences of developers and end users. As a devoted fan of productivity, I'm dedicated to streamlining procedures and workflows to increase my efficacy as a developer.
 
