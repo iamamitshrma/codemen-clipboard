@@ -26,7 +26,7 @@ function App() {
 
 
   return <>
-          <button className="me-4" onClick={() => copy("HI there")}>COPY</button>
+          <button className="me-4" onClick={() => copy("@thecodemen")}>COPY</button>
           <button className="me-4" onClick={() => clearAll()}>clearAll</button>
           <button className="me-4" onClick={() => clearAllCopiedItems()}>clearAllCopiedItems</button>
           <button className="me-4" onClick={() => clearCopiedItem()}>clearCopiedItem</button>
@@ -38,7 +38,7 @@ function App() {
 ## Usage/Component
 
 ```javascript
-import Copy, { useCodemenClipboard } from "codemen-clipboard"
+import { useCodemenClipboard, CopyButton } from "codemen-clipboard"
 
 function App() {
 
@@ -46,7 +46,7 @@ function App() {
   
   return (
       <div>
-        <Copy className="tailwind classes" onClick={() => copy()} />
+        <CopyButton className="tailwind classes" onClick={() => copy("@thecodemen")} />
       </div>
   )
 }

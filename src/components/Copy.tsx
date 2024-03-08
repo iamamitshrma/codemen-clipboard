@@ -12,7 +12,7 @@ function Icon() {
     )
 }
 
-function Copy({ className, icon=<Icon />, onClick }: { className: string, icon?: React.ReactNode, onClick: React.MouseEventHandler<HTMLButtonElement> }) {
+function CopyButton({ className, icon=<Icon />, onClick }: { className: string, icon?: React.ReactNode, onClick: React.MouseEventHandler<HTMLButtonElement> }) {
     return (
         <button onClick={onClick} className={`rounded-full bg-black p-2 hover:bg-slate-700 transition-all ${className}`} title="Copy">
             {icon}
@@ -20,4 +20,4 @@ function Copy({ className, icon=<Icon />, onClick }: { className: string, icon?:
     )
 }
 
-export default Copy
+export { CopyButton }
