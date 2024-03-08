@@ -1,6 +1,6 @@
 {
   "name": "codemen-clipboard",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Copy your content and store all previous copied content",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,6 +16,10 @@
   ],
   "author": "Amit Sharma",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamamitshrma/codemen-clipboard"
+  },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
